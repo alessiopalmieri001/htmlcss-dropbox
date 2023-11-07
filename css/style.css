@@ -1,0 +1,108 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+/* general */
+.container-big{
+    max-width:1200px ;
+    margin: 0 auto;
+}
+.container-small{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* header */
+.header-top{
+    padding: 20px;
+}
+
+
+
+/* main */
+
+.row .col-1-3{
+    width: calc(100% / 3);
+    
+}
+.team{
+    padding: 10px 0 ;
+}
+.col-70{
+    width: 70%;
+}
+.col-30{
+    width: 30%;
+}
+
+.box{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+.mini-box{
+    width: calc(100% / 2);
+
+}
+/* footer */
+
+/* debug */
+ .debug .header-top{
+    background-color:orange ;
+ }
+ .debug .header-bottom{
+    background-color: #b4d0e7;
+ }
+ .debug .container-big{
+    min-height: 750px;
+    border: 1px dashed red;
+    
+ }
+ .debug .container-small{
+    border: 2px dashed violet;
+ }
+ .debug .container-small .box-1-1{
+    height: 335px;
+    background-color: aquamarine;
+ }
+ .debug .container-small .row .col-1-3{
+    height: 400px;
+    background-color: red;
+    border:1px dashed black
+ }
+ .debug .team{
+    border: 1px dashed black;
+ }
+ .debug .col-70{
+    background-color: aquamarine;
+    border: 1px dashed red;
+    min-height: 215px;
+ }
+ .debug .col-30{
+    background-color: aquamarine;
+    border: 1px dashed red;
+    
+ }
+ .debug .container-small .info-client{
+    min-height: 200px;
+    background-color: green;
+    
+ }
+.debug .row .box{
+    background-color: chocolate;
+    border: 1px dashed black;
+ }
+ .debug .mini-box{
+    
+ }
