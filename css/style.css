@@ -26,13 +26,57 @@ html{
 hr{
     padding: 10px;
 }
+.bottone{
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.blu{
+    background-color: #0061ff;
+    color: white;
+    
+}
+h1{
+    font-size: 80px;
+    font-weight: bolder;
+}
+img{
+    width: 100%;
+}
 
 /* header */
 .header-top{
-    padding: 20px;
+    padding: 20px 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
 }
 
-
+.header-left{
+    display: flex;
+    
+}
+.header-top li{
+    display: inline-block;
+    
+    
+}
+.header-top li a{
+    text-decoration: none;
+    color:  black;
+    padding: 0 10px;
+}
+.header-bottom .row {
+   padding-top: 50px;
+}
+.header-bottom .row .col-30 p{
+    padding-bottom: 50px ;
+ }
+ .header-bottom .row .col-30 .bottone{
+    margin: 20px 0;
+ }
 
 /* main */
 
@@ -65,9 +109,9 @@ hr{
 }
 
 /* debug */
- .debug .header-top{
+/*  .debug .header-top{
     background-color:orange ;
- }
+ } */
  .debug .header-bottom{
     background-color: #b4d0e7;
  }
