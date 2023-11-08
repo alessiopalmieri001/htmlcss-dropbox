@@ -263,7 +263,22 @@ main .container-small .plans h2 {
 .full-screen-color{
     background-color: #b4d0e7;
 }
-#botton-free
+#botton-free{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #ffffff;
+}
+.full-screen-color .container-small .row{
+    padding: 50px 0;
+}
+.full-screen-color .container-small .row .col-70 > h2{
+    font-size: 50px;
+    color: #61082b;
+
+}
+.full-screen-color .container-small .row .col-30{
+    padding: 30px 10px;
+}
 
 /* footer */
 .col-1-5{
