@@ -47,6 +47,10 @@ img{
 ul{
     list-style-type: none;
 }
+.ul-flex-col{
+    display: flex;
+    align-items: baseline;
+}
 
 /* header */
 
@@ -132,6 +136,9 @@ main{
 .type-plans .plans-bottom > section > ul li i{
  color: #0061ff;
 }
+.type-plans .plans-bottom > section > ul li{
+    padding: 10px 0;
+}
 .type-plans .plans-bottom .row .col-70 > *{
     padding: 20px;
 }
@@ -143,6 +150,9 @@ main{
 }
 .type-plans .plans-bottom .row .col-30{
     padding :40px;
+}
+.ul-flex-col > div{
+    padding-left: 10px;
 }
 .container-small .row .col-30 > div {
     padding: 20px;
@@ -189,7 +199,11 @@ main{
     width: calc(100% / 2);
     height: calc(100vw / 6);
     padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 main > .row > .box:nth-child(2) > div{
     
     padding: 30px;
@@ -246,6 +260,10 @@ main .container-small .plans h2 {
 #radio-button{
     margin: 20px 0;
 }
+.full-screen-color{
+    background-color: #b4d0e7;
+}
+#botton-free
 
 /* footer */
 .col-1-5{
