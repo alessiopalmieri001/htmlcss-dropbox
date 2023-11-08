@@ -24,11 +24,12 @@ html{
     flex-wrap: wrap;
 }
 hr{
-    padding: 10px;
+    margin: 10px;;
 }
 .bottone{
     padding: 10px;
     text-decoration: none;
+    
     
 }
 .blu{
@@ -42,6 +43,9 @@ h1{
 }
 img{
     width: 100%;
+}
+ul{
+    list-style-type: none;
 }
 
 /* header */
@@ -92,6 +96,7 @@ main{
 }
 .type-plans{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
    
 }
@@ -100,12 +105,23 @@ main{
     border: 1px solid black;
     
 }
+.type-plans > div:nth-child(4) {
+    width: 100%;
+    border: 1px solid black;
+    margin: 20px 0;
+    
+}
 .type-plans .plans-top{
     text-align: center;
     border-bottom: 1px solid black;
     padding: 20px;
 }
-
+.type-plans .plans-bottom{
+    padding: 20px;
+}
+.type-plans .plans-bottom > section:nth-child(3){
+    padding: 20px;
+}
 .row .col-1-3{
     width: calc(100% / 3);
     
@@ -156,9 +172,9 @@ main .container-small .plans h2 {
     border: 1px dashed red;
     
  } */
- .debug .container-small{
+ /* .debug .container-small{
     border: 2px dashed violet;
- }
+ } */
  .debug .container-small .plans{
     /* height: 335px; */
     background-color: aquamarine;
